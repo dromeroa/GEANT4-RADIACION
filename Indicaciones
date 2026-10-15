@@ -1,1 +1,15 @@
 Entra a /GEANT4/proyecto_polimero
+
+Ir a la carpeta build y hacer:  
+
+cmake ..
+make -j$(nproc)
+
+Luego 
+
+En la ventana interactiva:
+
+Para correr radiacion Gamma 
+/gun/particle gamma 
+/gun/energy 1.25 MeV 
+/run/beamOn 1000
